@@ -1,6 +1,6 @@
-package Day2.Day3;
+package Day3;
 
-class intersectionofarrays {
+class intersection {
     public int[] intersect(int[] nums1, int[] nums2) {
         
         ArrayList<Integer> ans = new ArrayList<>();

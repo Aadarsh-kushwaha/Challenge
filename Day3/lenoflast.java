@@ -1,8 +1,7 @@
-package Day2.Day3;
-
+package Day3;
 
 class Solution {
-    public int lengthOflast(String s) {
+    public int lenOflast(String s) {
         int l = s.length() - 1;
         int ans = 0;
 
@@ -20,4 +19,3 @@ class Solution {
         return ans;
     }
 }
-
