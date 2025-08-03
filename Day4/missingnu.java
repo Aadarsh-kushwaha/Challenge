@@ -12,6 +12,7 @@ class missingnu {
   }
 
   
+
   ac=n * (n+1)/2;
     return ac-sum;
     }
