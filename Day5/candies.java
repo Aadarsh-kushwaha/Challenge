@@ -12,4 +12,5 @@ class candies {
 
         return result;
     }
+    
 }
