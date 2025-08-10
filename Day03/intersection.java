@@ -1,4 +1,4 @@
-package Day3;
+package Day03;
 
 class intersection {
     public int[] intersect(int[] nums1, int[] nums2) {

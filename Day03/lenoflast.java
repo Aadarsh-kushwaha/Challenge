@@ -1,4 +1,4 @@
-package Day3;
+package Day03;
 
 class Solution {
     public int lenOflast(String s) {
