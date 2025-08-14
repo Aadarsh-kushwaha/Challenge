@@ -1,4 +1,4 @@
-package Day12;
+package Day13.Day121;
 class findTheIndexOf {
     public int strStr(String haystack, String needle) {
         int n = haystack.length();

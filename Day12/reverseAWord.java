@@ -1,4 +1,4 @@
-package Day12;
+package Day13.Day121;
 class reverseAWord {
     public void reverseString(char[] s) {
         int start = 0;

@@ -1,4 +1,4 @@
-package Day12;
+package Day13.Day121;
 class reverseWordII {
     public static void swap(char[] arr, int i, int j) {
         while (i < j) {
