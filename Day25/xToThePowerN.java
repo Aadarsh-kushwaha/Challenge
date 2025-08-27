@@ -5,9 +5,7 @@ public class xToThePowerN {
         if (n == 0) { // base case 1
             return 1;
         }
-        if (n == 1) { // base case 2
-            return x;
-        }
+      
         return x * power(x, n - 1);
     }
 
