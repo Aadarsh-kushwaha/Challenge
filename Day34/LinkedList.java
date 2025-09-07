@@ -29,11 +29,25 @@ public class LinkedList {
         tail = newNode;
 
     }
-
+// public void print(){
+//     Node temp = head ;
+//     if(head==null){
+//         System.out.println("Empty ll");
+//         return ;
+//     }
+//     while(temp!=null){
+//         System.out.print(temp.data + "--->");
+//         temp = temp.next;
+//     }
+    // System.out.println("NULL");
+//}
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
-        ll.addFirst(1);
         ll.addFirst(2);
+        ll.addFirst(1);
+        ll.addLast(3);
+        ll.addLast(4);
+      
         
 
     }
