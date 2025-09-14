@@ -30,6 +30,7 @@ public class search {
         Node newNode = new Node(data);//create new node
          if(head==null){
             head=tail=newNode;
+            size++ ;
             return ;
         }
         tail.next=newNode;
