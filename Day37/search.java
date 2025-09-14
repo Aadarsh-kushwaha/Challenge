@@ -1,7 +1,8 @@
 
-package Day36;
 
-public class LLDeletion {
+package Day37;
+
+public class search {
     public static class Node{
         int data ;
         Node next;
@@ -123,11 +124,30 @@ public void add(int idx,int data){
 
     }
 
+    public int helper(Node head , int key){
+        if(head ==null){
+            return -1;
+        }
+        if(head.data ==key){
+            return 0;
+        }
+        int idx = helper(head.next,key);
+        if(idx==-1){
+            return -1;
+        }
+        return idx +1;
+    }
+
+    public int recursiveSearch(int key){
+        return helper(head,key);
+
+    }
+
 
 
 
     public static void main(String[] args) {
-        LLDeletion ll = new LLDeletion();
+        search ll = new search();
       
         ll.addFirst(1);
         ll.addLast(2);
@@ -137,7 +157,7 @@ public void add(int idx,int data){
         ll.addLast(6);
         
         ll.print();
-        System.out.println(ll.ItrSearch(8));
+        System.out.println(ll.recursiveSearch(45));
 
     }
 }
