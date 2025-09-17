@@ -36,6 +36,7 @@ public class print {
 
 
     }
+    
 public void print(){
     Node temp = head ;
     if(head==null){
