@@ -1,3 +1,5 @@
+package Day01-10.Day01;
+
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
