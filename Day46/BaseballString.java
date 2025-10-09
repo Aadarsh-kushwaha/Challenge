@@ -5,7 +5,7 @@ class Solution {
         int sum = 0;
 
         for (String op : ops) {
-            if (op.equals("C")) {
+            if(op.equals("C")){
               
                 sum -= s.pop();
             } 
