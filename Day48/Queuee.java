@@ -1,6 +1,6 @@
 package Day48;
 
-public class QueueB{
+public class Queuee{
    
         static class Node {
             int data;
